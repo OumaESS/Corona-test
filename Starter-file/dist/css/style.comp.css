@@ -15,7 +15,6 @@
 .bar ul {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   list-style: none;
   float: right;
   margin-top: 1%;
@@ -54,12 +53,12 @@
   .paragraph__tex1 {
     font-size: 24px;
     color: #1078AD;
-    font-family: 'Cairo', sans-serif !important; }
+    font-family: 'Cairo', sans-serif; }
   .paragraph__tex2 {
     font-size: 24px;
     font-weight: 700;
     color: #7F7F7F;
-    font-family: 'Cairo', sans-serif !important; }
+    font-family: 'Cairo', sans-serif; }
 
 .btn {
   width: 70%;
