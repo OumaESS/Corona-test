@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+}
+
+.bar{
+    &__logo{
+        height: 50px;
+        margin: 0.5% auto auto 2%;
+
+    }
+    background-image: url("/Starter-file/Assets/png/Merged\ bar-43@2x.png");
+    background-size: cover;
+}
+
+.bar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    float: right;
+    margin-top: 1%;
+font-family: fantasy;
+    li a{
+        text-decoration: none;
+        margin: 2em;
+
+    }
+} 
+
+.bar1{
+    background: #F4CF1B;
+    padding: 1%;
+    margin-bottom: 50px;
+    h4{
+        color: #1078AD;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        padding: 1%;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        padding: 1%;  
+    } 
+}
+
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraph {
+    width: 45%;
+    text-align: center;
+    align-self: center;
+    justify-content: flex-start;
+
+    img{
+        padding: 2%; 
+    }
+
+    &__tex1{
+        font-size: 24px;
+        color: #1078AD;
+        font-family: 'Cairo', sans-serif !important;
+    }
+
+    &__tex2{
+        font-size: 24px;
+        font-weight: 700;
+        color: #7F7F7F;
+        font-family: 'Cairo', sans-serif !important;
+    }
+}
+
+.btn {
+    width: 70%;
+    margin-top: 2%;
+    background-image: url("/Starter-file/Assets/png/Merged\ bar-43@2x.png");
+    border:#1078AD;
+    padding: 1%;
+    color: rgb(0, 128, 192);
+    font-size: 1.3rem;
+    font-weight: 700;
+    border:rgb(0, 128, 192);
+    border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+        color: white;
+        background-color: rgb(0, 128, 192);
+        border-radius: 20px;
+        
+      }
+}
+.illustration {
+    width: 50%;
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    .bar{
+        ul{
+            margin-top: 3%;
+        }
+    }
+    .bar1{
+        padding: 3%;
+        h4{
+            font-size: 20px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+
+    .head{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .illustration{
+        width: 100%;
+    }
+}
+
+
+
