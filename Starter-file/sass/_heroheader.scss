@@ -33,9 +33,9 @@
 }
 
 .bar ul{
+    
     display: flex;
     justify-content: flex-end;
-    
     list-style: none;
     float: right;
     margin-top: 1%;
@@ -125,6 +125,10 @@
     .head{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .paragraph{
+        &__text2{}
     }
 
     .illustration{
