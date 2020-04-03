@@ -1,0 +1,39 @@
+.symptomes{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    h2{
+        text-align: center;
+        color:#1078ad;
+        padding-top: 2em;
+        font-size: 2.4em;
+    }
+
+    &__synt{
+        display: grid;
+        grid-template-columns: repeat(2 , 50%);
+        padding: 3em;
+        
+        .pictures{
+            text-align: center;
+            padding: 2em;
+            &__pict1{
+                height: 8em;
+            }
+            &__pict{
+                padding-bottom:2em ;
+            }
+
+            &__title1{
+                color: #1078ad;
+                font-weight: 3em;
+                padding: 2em;
+                font-size: 1.3em;   
+            }
+
+            &__title{
+                
+                color: #1078ad;
+                font-weight: 3em;
+            }   
+        }
+    }
+}

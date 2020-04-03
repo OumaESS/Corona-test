@@ -94,3 +94,30 @@
     flex-direction: column-reverse; }
   .illustration {
     width: 100%; } }
+
+.symptomes {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .symptomes h2 {
+    text-align: center;
+    color: #1078ad;
+    padding-top: 2em;
+    font-size: 2.4em; }
+  .symptomes__synt {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 3em; }
+    .symptomes__synt .pictures {
+      text-align: center;
+      padding: 2em; }
+      .symptomes__synt .pictures__pict1 {
+        height: 8em; }
+      .symptomes__synt .pictures__pict {
+        padding-bottom: 2em; }
+      .symptomes__synt .pictures__title1 {
+        color: #1078ad;
+        font-weight: 3em;
+        padding: 2em;
+        font-size: 1.3em; }
+      .symptomes__synt .pictures__title {
+        color: #1078ad;
+        font-weight: 3em; }
