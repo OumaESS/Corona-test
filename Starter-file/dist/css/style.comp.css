@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -121,3 +122,40 @@
       .symptomes__synt .pictures__title {
         color: #1078ad;
         font-weight: 3em; }
+
+.recommandations {
+  background-color: #1078ad;
+  width: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .recommandations h2 {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 2em; }
+  .recommandations__information {
+    display: grid;
+    grid-template-columns: repeat(2, 50%); }
+    .recommandations__information .consiels {
+      padding-left: 6em;
+      color: white; }
+      .recommandations__information .consiels__ligne {
+        text-align: center;
+        padding-bottom: 1em; }
+      .recommandations__information .consiels__cnc {
+        list-style: none; }
+        .recommandations__information .consiels__cnc li {
+          margin: 1em; }
+    .recommandations__information .emerg {
+      text-align: center; }
+      .recommandations__information .emerg h3 {
+        color: yellow; }
+      .recommandations__information .emerg .numéro {
+        margin: 1em;
+        position: relative;
+        width: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 1em 2em;
+        border-radius: 1em;
+        background-color: yellow;
+        color: #1078ad; }

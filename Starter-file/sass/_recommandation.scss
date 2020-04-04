@@ -1,0 +1,52 @@
+.recommandations {
+    background-color: #1078ad;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    h2 {
+        text-align: center;
+        color: white;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        
+    }
+    
+    &__information {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+
+        .consiels {
+            padding-left: 6em;
+            color: white;
+            &__ligne {
+                text-align: center;
+                padding-bottom: 1em;
+            }
+            &__cnc {
+                list-style: none;
+
+                li {
+                    margin: 1em ;
+                }
+            }
+        }
+
+        .emerg {
+            text-align: center;
+            h3 {
+                color: yellow;
+            }
+            .numéro {
+                margin: 1em;
+                position: relative;
+                width: 20%;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 1em 2em;
+                border-radius: 1em;
+                background-color: yellow;
+                color: #1078ad;
+            }
+        }
+    }
+}
