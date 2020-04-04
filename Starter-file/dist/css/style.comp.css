@@ -131,7 +131,8 @@
     text-align: center;
     color: white;
     padding-top: 1em;
-    padding-bottom: 2em; }
+    padding-bottom: 2em;
+    font-size: xx-large; }
   .recommandations__information {
     display: grid;
     grid-template-columns: repeat(2, 50%); }
@@ -140,16 +141,20 @@
       color: white; }
       .recommandations__information .consiels__ligne {
         text-align: center;
-        padding-bottom: 1em; }
+        padding-bottom: 1em;
+        font-size: 1.3em; }
       .recommandations__information .consiels__cnc {
         list-style: none; }
         .recommandations__information .consiels__cnc li {
-          margin: 1em; }
+          margin: 1em;
+          font-size: 1.1em;
+          font-family: Verdana, Geneva, Tahoma, sans-serif; }
     .recommandations__information .emerg {
       text-align: center; }
       .recommandations__information .emerg h3 {
         color: yellow; }
       .recommandations__information .emerg .numéro {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 1em;
         position: relative;
         width: 20%;
