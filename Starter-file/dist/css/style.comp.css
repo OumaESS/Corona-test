@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -123,44 +122,87 @@
         color: #1078ad;
         font-weight: 3em; }
 
-.recommandations {
-  background-color: #1078ad;
-  width: 100%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-  .recommandations h2 {
-    text-align: center;
-    color: white;
-    padding-top: 1em;
-    padding-bottom: 2em;
-    font-size: xx-large; }
-  .recommandations__information {
-    display: grid;
-    grid-template-columns: repeat(2, 50%); }
-    .recommandations__information .consiels {
-      padding-left: 6em;
-      color: white; }
-      .recommandations__information .consiels__ligne {
-        text-align: center;
-        padding-bottom: 1em;
-        font-size: 1.3em; }
-      .recommandations__information .consiels__cnc {
-        list-style: none; }
-        .recommandations__information .consiels__cnc li {
-          margin: 1em;
-          font-size: 1.1em;
-          font-family: Verdana, Geneva, Tahoma, sans-serif; }
-    .recommandations__information .emerg {
-      text-align: center; }
-      .recommandations__information .emerg h3 {
+.recomm {
+  display: flex;
+  flex-direction: column; }
+  .recomm__title {
+    background-color: #1078AD;
+    padding-bottom: .5em; }
+    .recomm__title h1 {
+      text-align: center;
+      color: #fff;
+      margin: 1em; }
+  .recomm__conse h4 {
+    color: #fff;
+    padding-left: 15em; }
+  .recomm .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1078AD;
+    padding: 2em; }
+    .recomm .list__cons ul {
+      font-weight: bold;
+      color: #fff;
+      line-height: 2em;
+      list-style: none; }
+      .recomm .list__cons ul span {
+        color: yellow;
+        padding-right: 1em; }
+    .recomm .list__appel {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      line-height: 2em;
+      text-align: center;
+      font-weight: bold; }
+      .recomm .list__appel h3 {
         color: yellow; }
-      .recommandations__information .emerg .numéro {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin: 1em;
-        position: relative;
-        width: 20%;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 1em 2em;
-        border-radius: 1em;
+      .recomm .list__appel--num1 {
         background-color: yellow;
-        color: #1078ad; }
+        border-radius: .25em;
+        width: 10em;
+        color: #1078AD; }
+      .recomm .list__appel--num2 {
+        background-color: yellow;
+        border-radius: .25em;
+        width: 10em;
+        color: #1078AD; }
+      .recomm .list__appel--num3 {
+        background-color: yellow;
+        border-radius: .25em;
+        width: 10em;
+        color: #1078AD; }
+
+@media screen and (max-width: 900px) {
+  .recomm__conse h4 {
+    padding-left: 2em; }
+  .recomm .list {
+    display: flex;
+    flex-direction: column; }
+    .recomm .list__appel {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      padding: .30em;
+      margin: 1em; }
+      .recomm .list__appel h3 {
+        padding-top: 2em; } }
+
+.nav-test {
+  background-color: #96c5dc;
+  text-align: center;
+  padding: 2em; }
+  .nav-test h2 {
+    color: #1078ad; }
+  .nav-test button {
+    padding: 1em 11em;
+    margin-top: 2em;
+    background-color: #cfe4ef;
+    border: solid 2px #1078ad;
+    color: #1078ad;
+    border-radius: 0.6em; }
+    .nav-test button:hover {
+      background-color: #1078ad;
+      color: white; }
