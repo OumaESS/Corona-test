@@ -122,87 +122,93 @@
         color: #1078ad;
         font-weight: 3em; }
 
-.recomm {
+.recommandation {
   display: flex;
   flex-direction: column; }
-  .recomm__title {
+  .recommandation__title {
     background-color: #1078AD;
-    padding-bottom: .5em; }
-    .recomm__title h1 {
+    padding-bottom: .5em;
+    font-size: 1.3rem; }
+    .recommandation__title h1 {
       text-align: center;
       color: #fff;
       margin: 1em; }
-  .recomm__conse h4 {
+  .recommandation__conseil h4 {
     color: #fff;
     padding-left: 15em; }
-  .recomm .list {
+  .recommandation .list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #1078AD;
     padding: 2em; }
-    .recomm .list__cons ul {
+    .recommandation .list__cons ul {
       font-weight: bold;
       color: #fff;
       line-height: 2em;
       list-style: none; }
-      .recomm .list__cons ul span {
+      .recommandation .list__cons ul span {
         color: yellow;
         padding-right: 1em; }
-    .recomm .list__appel {
+    .recommandation .list__appel {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       line-height: 2em;
       text-align: center;
       font-weight: bold; }
-      .recomm .list__appel h3 {
+      .recommandation .list__appel h3 {
         color: yellow; }
-      .recomm .list__appel--num1 {
+      .recommandation .list__appel--num1 {
         background-color: yellow;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
-      .recomm .list__appel--num2 {
+      .recommandation .list__appel--num2 {
         background-color: yellow;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
-      .recomm .list__appel--num3 {
+      .recommandation .list__appel--num3 {
         background-color: yellow;
         border-radius: .25em;
         width: 10em;
         color: #1078AD; }
 
 @media screen and (max-width: 900px) {
-  .recomm__conse h4 {
-    padding-left: 2em; }
-  .recomm .list {
+  .recommandation__title {
+    font-size: 1em; }
+  .recommandation .list {
     display: flex;
     flex-direction: column; }
-    .recomm .list__appel {
+    .recommandation .list__appel {
       display: flex;
       justify-content: space-around;
       align-items: center;
       align-content: center;
       padding: .30em;
       margin: 1em; }
-      .recomm .list__appel h3 {
+      .recommandation .list__appel h3 {
         padding-top: 2em; } }
 
-.nav-test {
+.navdown {
   background-color: #96c5dc;
   text-align: center;
   padding: 2em; }
-  .nav-test h2 {
+  .navdown h2 {
     color: #1078ad; }
-  .nav-test button {
-    padding: 1em 11em;
-    margin-top: 2em;
-    background-color: #cfe4ef;
-    border: solid 2px #1078ad;
-    color: #1078ad;
-    border-radius: 0.6em; }
-    .nav-test button:hover {
+  .navdown button {
+    width: 30%;
+    margin-top: 2%;
+    background-image: url("/Starter-file/Assets/png/Merged bar-43.png");
+    border: #1078AD;
+    padding: 1%;
+    color: #0080c0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: #0080c0;
+    border-radius: 9px;
+    cursor: pointer; }
+    .navdown button:hover {
       background-color: #1078ad;
       color: white; }

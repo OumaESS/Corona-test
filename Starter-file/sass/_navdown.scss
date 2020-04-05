@@ -1,0 +1,29 @@
+.navdown{
+    background-color: #96c5dc;
+    text-align: center;
+    padding: 2em;
+    
+    h2{
+        color:#1078ad;
+    }
+    img{
+        
+    }
+    button {
+        width: 30%;
+        margin-top: 2%;
+        background-image: url("/Starter-file/Assets/png/Merged\ bar-43.png");
+        border:#1078AD;
+        padding: 1%;
+        color: rgb(0, 128, 192);
+        font-size: 1.3rem;
+        font-weight: 700;
+        border:rgb(0, 128, 192);
+        border-radius: 9px;
+        cursor: pointer;
+        &:hover {
+            background-color: #1078ad;
+            color: white;
+        }
+    }
+}
