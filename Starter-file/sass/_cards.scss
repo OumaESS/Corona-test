@@ -1,0 +1,100 @@
+.protection{
+    padding-top: 2em;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    h1{
+        font-size: 2em;
+        text-align: center;
+        color: rgb(6, 99, 187);
+    }
+
+.Pro{
+
+   display: grid;
+   grid-template-columns: repeat(3, 33.33%);
+.card {
+
+	padding: 3em;
+
+    &__pict{
+        text-align: center;
+         padding-right: 1em;
+         padding-bottom: 1em;
+         img{
+             width: 150px;
+         }
+    }
+    &__text{
+        font-size: 1.6em;
+        font-weight: bold;
+        color: rgb(6, 99, 187);
+        text-align: center;
+    }
+   }
+
+  }
+  .card-S{
+      text-align: center;
+      &__img{
+      
+        text-align: center;
+         padding-right: 1em;
+         padding-bottom: 1em;
+         img{
+            width: 150px;
+        }
+    }
+    &__text{
+        font-size: 1.6em;
+        font-weight: bold;
+        color: rgb(6, 99, 187);
+        text-align: center;
+    }
+  }
+}
+@media only screen and (max-width:800px){
+    .protection{
+        h1{
+            font-size: 1.6em;
+        }
+        .Pro{
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            .card{
+                padding: 3em;
+                &__pict{
+                    text-align: center;
+                     padding-right: 1em;
+                     padding-bottom: 1em;
+                     img{
+                         width: 80px;
+                     }
+                }
+                &__text{
+                    font-size: 1em;
+                    font-weight: bold;
+                    color: rgb(6, 99, 187);
+                    text-align: center;
+                }
+               }
+              }
+              .card-S{
+                  text-align: center;
+                  &__img{
+                  
+                    text-align: center;
+                     padding-right: 1em;
+                     padding-bottom: 1em;
+                     img{
+                        width: 80px;
+                    }
+                }
+                &__text{
+                    font-size: 1em;
+                    font-weight: bold;
+                    color: rgb(6, 99, 187);
+                    text-align: center;
+                }
+              }
+    }
+}

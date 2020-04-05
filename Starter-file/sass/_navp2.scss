@@ -1,0 +1,27 @@
+.nav{
+    width: 100%;
+}
+
+.bar{
+   &__logo{
+        height: 50px;
+        margin: 0.5% auto auto 2%;
+
+    }
+    background-image: url("/Starter-file/Assets/png/Merged\ bar-43@2x.png");
+    background-size: cover;
+}
+
+.bar ul{
+    
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    float: right;
+    margin-top: 1%;
+    font-family: fantasy;
+    li a{
+        text-decoration: none;
+        margin: 2em;
+    }
+} 

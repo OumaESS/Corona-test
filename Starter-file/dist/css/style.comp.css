@@ -255,3 +255,131 @@
     padding: 1em 0;
     border-bottom: solid #1078ad;
     margin: 0 9em; } }
+
+.nav {
+  width: 100%; }
+
+.bar {
+  background-image: url("/Starter-file/Assets/png/Merged bar-43@2x.png");
+  background-size: cover; }
+  .bar__logo {
+    height: 50px;
+    margin: 0.5% auto auto 2%; }
+
+.bar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  float: right;
+  margin-top: 1%;
+  font-family: fantasy; }
+  .bar ul li a {
+    text-decoration: none;
+    margin: 2em; }
+
+.protection {
+  padding-top: 2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .protection h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #0663bb; }
+  .protection .Pro {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%); }
+    .protection .Pro .card {
+      padding: 3em; }
+      .protection .Pro .card__pict {
+        text-align: center;
+        padding-right: 1em;
+        padding-bottom: 1em; }
+        .protection .Pro .card__pict img {
+          width: 150px; }
+      .protection .Pro .card__text {
+        font-size: 1.6em;
+        font-weight: bold;
+        color: #0663bb;
+        text-align: center; }
+  .protection .card-S {
+    text-align: center; }
+    .protection .card-S__img {
+      text-align: center;
+      padding-right: 1em;
+      padding-bottom: 1em; }
+      .protection .card-S__img img {
+        width: 150px; }
+    .protection .card-S__text {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #0663bb;
+      text-align: center; }
+
+@media only screen and (max-width: 800px) {
+  .protection h1 {
+    font-size: 1.6em; }
+  .protection .Pro {
+    display: grid;
+    grid-template-columns: repeat(2, 50%); }
+    .protection .Pro .card {
+      padding: 3em; }
+      .protection .Pro .card__pict {
+        text-align: center;
+        padding-right: 1em;
+        padding-bottom: 1em; }
+        .protection .Pro .card__pict img {
+          width: 80px; }
+      .protection .Pro .card__text {
+        font-size: 1em;
+        font-weight: bold;
+        color: #0663bb;
+        text-align: center; }
+  .protection .card-S {
+    text-align: center; }
+    .protection .card-S__img {
+      text-align: center;
+      padding-right: 1em;
+      padding-bottom: 1em; }
+      .protection .card-S__img img {
+        width: 80px; }
+    .protection .card-S__text {
+      font-size: 1em;
+      font-weight: bold;
+      color: #0663bb;
+      text-align: center; } }
+
+.info {
+  background-color: #d6ecf5;
+  text-align: center; }
+  .info .text {
+    font-family: sans-serif;
+    padding-top: 2em;
+    font-family: 'Cairo', sans-serif !important; }
+    .info .text h2 {
+      line-height: 3em;
+      font-size: 3em;
+      color: #4d92e0; }
+    .info .text p {
+      color: #0663bb;
+      font-size: 2em;
+      font-weight: 400; }
+  .info a {
+    line-height: 5em;
+    background-color: #588cc7;
+    width: 23%;
+    margin-top: 3%;
+    padding: .9%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: .2em;
+    border: darkblue;
+    cursor: pointer;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3%;
+    text-decoration: none; }
+
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 60%;
+    margin-left: 10%;
+    margin-right: 10%; } }

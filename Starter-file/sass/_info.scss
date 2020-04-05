@@ -1,0 +1,67 @@
+// @mixin bott {
+//     background-color:rgb(13, 13, 88);
+//     border-radius: 10em;
+//     box-shadow: cornsilk;  
+// }
+
+.info{
+    // background-image: url(Design/Asse);
+    background-color: rgb(214, 236, 245);  //changer vous background image
+    text-align: center;
+    .text{
+        font-family: sans-serif;
+        padding-top: 2em;
+        font-family: 'Cairo', sans-serif !important;
+
+        h2{
+            // margin: .%;
+            
+            line-height: 3em;
+            font-size: 3em;
+            color: rgb(77, 146, 224);   
+        }
+        p{
+            color: rgb(6, 99, 187);
+            font-size: 2em;
+            font-weight: 400;
+            
+        }
+    }
+           
+        
+
+    a{
+        line-height: 5em;
+        background-color:rgb(88, 140, 199);  //changer vous background image
+        width: 23%;
+        margin-top: 3%;
+        padding: .9%;
+        font-size: 1.4rem;
+        font-weight: 500;
+        border-radius: .2em;
+        border: darkblue;
+        cursor: pointer;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 3%;
+        text-decoration: none;
+    
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+.text{
+    font-size: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+.btnn{
+    
+
+}
+}
+
