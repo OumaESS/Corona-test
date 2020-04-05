@@ -212,3 +212,43 @@
     .navdown button:hover {
       background-color: #1078ad;
       color: white; }
+
+.footer {
+  padding-top: 2em; }
+  .footer h2 {
+    text-align: center;
+    color: #1078ad; }
+  .footer .content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 3em 0; }
+    .footer .content .contact {
+      text-align: center; }
+      .footer .content .contact h3 {
+        color: #1078ad;
+        margin-bottom: 1em; }
+      .footer .content .contact .numbers {
+        margin-bottom: .5em; }
+      .footer .content .contact .num {
+        color: #22ff22;
+        margin-bottom: .5em; }
+    .footer .content .page {
+      text-align: center;
+      padding-top: 2em; }
+      .footer .content .page ul {
+        list-style: none; }
+        .footer .content .page ul li {
+          padding: 1em 0;
+          border-bottom: solid #1078ad;
+          margin: 0 9em; }
+  .footer .background {
+    background-color: #1078ad;
+    width: 100%;
+    height: 2em;
+    margin-top: 1em; }
+
+@media only screen and (max-width: 600px) {
+  .footer .page li {
+    padding: 1em 0;
+    border-bottom: solid #1078ad;
+    margin: 0 9em; } }
