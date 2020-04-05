@@ -241,6 +241,9 @@
           padding: 1em 0;
           border-bottom: solid #1078ad;
           margin: 0 9em; }
+          .footer .content .page ul li a {
+            text-decoration: none;
+            color: #1078ad; }
   .footer .background {
     background-color: #1078ad;
     width: 100%;

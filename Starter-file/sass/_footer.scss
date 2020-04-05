@@ -1,5 +1,6 @@
 .footer {
     padding-top: 2em;
+    
     h2 {
         text-align: center;
         color: #1078ad;
@@ -8,7 +9,6 @@
         display: grid;
         grid-template-columns: repeat(2, 50%);
         margin: 3em 0;
-
         .contact {
             text-align: center;
 
@@ -37,6 +37,10 @@
                     padding:  1em 0;
                     border-bottom: solid #1078ad;
                     margin: 0 9em;
+                    a{
+                        text-decoration: none;
+                        color:#1078ad;
+                    }
                 }
             }
         }
