@@ -352,14 +352,13 @@
   text-align: center; }
   .info .text {
     font-family: sans-serif;
-    padding-top: 2em;
     font-family: 'Cairo', sans-serif !important; }
     .info .text h2 {
       line-height: 3em;
       font-size: 3em;
-      color: #4d92e0; }
+      color: #3d78bb; }
     .info .text p {
-      color: #0663bb;
+      color: #4181bd;
       font-size: 2em;
       font-weight: 400; }
   .info a {
