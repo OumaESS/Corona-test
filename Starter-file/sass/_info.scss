@@ -1,5 +1,6 @@
-.info{
-    // background-image: url(Design/Asse);
+.information{
+    padding-bottom: .5em;
+&__info{
     background-color: rgb(214, 236, 245);  
     text-align: center;
     .text{
@@ -7,8 +8,6 @@
         font-family: 'Cairo', sans-serif !important;
 
         h2{
-            // margin: .%;
-            
             line-height: 3em;
             font-size: 3em;
             color: rgb(61, 120, 187);   
@@ -16,8 +15,7 @@
         p{
             color: rgb(65, 129, 189);
             font-size: 2em;
-            font-weight: 400;
-            
+            font-weight: 400;   
         }
     }
     a{
@@ -38,14 +36,13 @@
     
     }
 }
-
+}
 
 @media only screen and (max-width: 600px){
 .text{
     font-size: 60%;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 }
 

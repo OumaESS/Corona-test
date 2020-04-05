@@ -347,21 +347,21 @@
       color: #0663bb;
       text-align: center; } }
 
-.info {
+.information__info {
   background-color: #d6ecf5;
   text-align: center; }
-  .info .text {
+  .information__info .text {
     font-family: sans-serif;
     font-family: 'Cairo', sans-serif !important; }
-    .info .text h2 {
+    .information__info .text h2 {
       line-height: 3em;
       font-size: 3em;
       color: #3d78bb; }
-    .info .text p {
+    .information__info .text p {
       color: #4181bd;
       font-size: 2em;
       font-weight: 400; }
-  .info a {
+  .information__info a {
     line-height: 5em;
     background-color: #588cc7;
     width: 23%;
