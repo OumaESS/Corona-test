@@ -223,7 +223,9 @@
     grid-template-columns: repeat(2, 50%);
     margin: 3em 0; }
     .footer .content .contact {
-      text-align: center; }
+      text-align: center;
+      font-family: sans-serif;
+      font-weight: bolder; }
       .footer .content .contact h3 {
         color: #1078ad;
         margin-bottom: 1em; }
@@ -240,7 +242,8 @@
         .footer .content .page ul li {
           padding: 1em 0;
           border-bottom: solid #1078ad;
-          margin: 0 9em; }
+          margin: 0 9em;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
           .footer .content .page ul li a {
             text-decoration: none;
             color: #1078ad; }
