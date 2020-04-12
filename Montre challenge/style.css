@@ -5,6 +5,7 @@
     height: 90vh;
     justify-content: center;
     align-items: middle;
+    background-color: aquamarine;
 }
 
 .clockbox,
@@ -15,7 +16,7 @@
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: #000;
+    stroke: rgb(106, 145, 196);
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
