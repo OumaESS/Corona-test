@@ -1,22 +1,22 @@
-const AIGUILLEHR = document.querySelector("#hour");
-const AIGUILLEMIN = document.querySelector("#minute");
-const AIGUILLESEC = document.querySelector("#second");
+const AIGUILLE_HEURE = document.querySelector("#hour");
+const AIGUILLE_MINUTUE = document.querySelector("#minute");
+const AIGUILLE_SECONDE = document.querySelector("#second");
+
 function demarrerLaMontre() {
-    const heurActuel = new Date();
+    const date_actuel = new Date();
 
-    let hr = heurActuel.getHours();
-    let min = heurActuel.getMinutes();
-    let sec = heurActuel.getSeconds();
+    let heure_actuel = date_actuel.getHours();
+    let minute_actuel = date_actuel.getMinutes();
+    let seconde_actuel = date_actuel.getSeconds();
 
-    let secDeg = sec * 6; 
-    let minDeg = (min * 6) + (0.1 * sec); 
-    let hrDeg = (hr * 30) + (0.5 * min); 
+    let seconde_degree = seconde_actuel * 6; 
+    let minute_degree = (minute_actuel * 6) + (0.1 * seconde_actuel); 
+    let heure_degree = (heure_actuel * 30) + (0.5 * minute_actuel); 
 
-    AIGUILLESEC.style.transform = 'rotate(' + secDeg + 'deg)';
-    AIGUILLEMIN.style.transform = 'rotate(' + minDeg + 'deg)';
-    AIGUILLEHR.style.transform = 'rotate(' + hrDeg + 'deg)';
+    AIGUILLE_SECONDE.style.transform = `rotate(${seconde_degree}deg)`;
+    AIGUILLE_MINUTUE.style.transform = `rotate(${minute_degree}deg)`;
+    AIGUILLE_HEURE.style.transform = `rotate('${heure_degree}deg)`;
 }
-demarrerLaMontre();
 
 // Exercuter la fonction chaque second
-var interval = setInterval(demarrerLaMontre, 1000);
+setInterval(demarrerLaMontre, 1000);
