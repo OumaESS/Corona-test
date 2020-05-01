@@ -197,21 +197,6 @@
   padding: 2em; }
   .navdown h2 {
     color: #1078ad; }
-  .navdown button {
-    width: 30%;
-    margin-top: 2%;
-    background-image: url("/Starter-file/Assets/png/Merged bar-43.png");
-    border: #1078AD;
-    padding: 1%;
-    color: #0080c0;
-    font-size: 1.3rem;
-    font-weight: 700;
-    border: #0f2936;
-    border-radius: 9px;
-    cursor: pointer; }
-    .navdown button:hover {
-      background-color: #1078ad;
-      color: white; }
 
 .footer {
   padding-top: 2em; }
@@ -387,3 +372,19 @@
     font-size: 60%;
     margin-left: 10%;
     margin-right: 10%; } }
+
+button {
+  width: 30%;
+  margin-top: 2%;
+  background-image: url("/Starter-file/Assets/png/Merged bar-43.png");
+  border: #1078AD;
+  padding: 1%;
+  color: #0080c0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: #0f2936;
+  border-radius: 9px;
+  cursor: pointer; }
+  button:hover {
+    background-color: #1078ad;
+    color: white; }
