@@ -1,6 +1,5 @@
 button {
     background-position: center; 
-    text-align: center;
     width: 28%;
     margin-top: 2%;
     background-image: url("/Starter-file/Assets/png/Merged\ bar-43.png");
@@ -8,10 +7,10 @@ button {
     color: rgb(0, 128, 192);
     font-size: 1.3rem;
     font-weight: 700;
-    border:rgb(15, 41, 54);
+    border-color:rgb(0, 128, 192);
     border-radius: 9px;
     cursor: pointer;
-    
+
     &:hover {
         background-color: #1078ad;
         color: white;

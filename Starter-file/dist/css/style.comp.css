@@ -421,7 +421,6 @@
 
 button {
   background-position: center;
-  text-align: center;
   width: 28%;
   margin-top: 2%;
   background-image: url("/Starter-file/Assets/png/Merged bar-43.png");
@@ -429,7 +428,7 @@ button {
   color: #0080c0;
   font-size: 1.3rem;
   font-weight: 700;
-  border: #0f2936;
+  border-color: #0080c0;
   border-radius: 9px;
   cursor: pointer; }
   button:hover {
