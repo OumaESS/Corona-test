@@ -1,0 +1,146 @@
+
+.card {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(255,255,255,.04588);
+	
+	&-header{
+		padding: 60px;
+		
+		
+		& .steps{
+			display: flex;
+			column-count: 3;
+			justify-content: center;
+			align-items: center;
+			
+			& .step{
+			 width: 100%; 
+   		    text-align: center;  
+   		    line-height: 0.1em;
+   		    margin: 10px 0 20px; 	
+				& span{
+					padding: 7px 9px;
+					border-radius: 20px;
+			        height: 30px;
+                    width: 30px;
+                    background-color: #1a519e;
+                    border-radius: 50%;
+                    display: inline-block;
+				}
+			}
+			
+			& .step.active{
+				& span{
+					background-color: #f4cf1b;
+                    border: 10px solid #88b7d3;
+                    padding: 15px;
+				}
+			}
+		}
+    }
+    
+
+    .card-header .steps .text.ac {
+        margin-top: 0.75em;
+    }
+    .card-header .steps .text {
+        color: #1078ad;
+        font-weight: bold;
+        margin-top: 1.5em;
+    }
+
+
+
+    #card-body {
+        padding: 16px;
+        min-height: 250px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+
+
+    .card-body .tabs {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .card-body #first {
+        padding: 4em;
+        background-color: #e9ecef;
+        h5{
+            text-align: center;
+            color: #1078ad;
+            font-weight: bold;
+            padding-bottom: 1em;
+        }
+    }
+
+
+
+
+	
+	&-body{
+		padding: 16px;
+		min-height: 250px;
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		& .tabs
+		{
+				width: 100%;
+				height: 100%;
+				justify-content: center;
+				display: flex;
+				align-items: center;
+			& .tab{
+					display: none;
+			}
+			
+			& .tab.active{
+				display: block !important;
+			}
+		}
+	}
+	
+	&-footer{
+		padding: 16px;
+		border-top: 1px solid  #d5d0d0;
+		
+		& button{
+            width: 210px;
+            background-image: url(../image/bar-17.png);
+            background-position: center;
+            padding: 15px;
+            margin-top: 3%;
+            border: 2px solid;
+            border-radius: 12px;
+            // color: ;
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            &:hover:not(.active) {
+                // background-color: $color_titre;
+                // color: $color_white;
+              }
+		}
+	}
+}
+
+
+@media only screen and (max-width: 420px)
+{
+	.card-footer{
+		& button{
+			width: 100%;
+		}
+	}
+}
