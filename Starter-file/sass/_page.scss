@@ -1,3 +1,25 @@
+.paragraph{
+    font-family: 'Cairo', sans-serif !important;
+    padding: 5em;
+    text-align: center;
+    
+    
+    .text{
+        background-color: rgb(233, 233, 233);
+        font-size: larger;
+        padding-bottom: 2em;
+        
+        h1{
+            padding: 2em;
+            color:rgb(0, 128, 192);
+        }
+        
+    }
+}
+
+
+
+
 .container{
     width:70%;
     margin: 60px 280px 20px;
@@ -9,11 +31,11 @@
 
 h1{
     font-size: 20px;
-    color: black;
+    color: rgb(0, 128, 192);
     position: relative;
     display: flex;
     justify-content: center;
-
+    
 &::before {
     content: '';
     height: 20px;
