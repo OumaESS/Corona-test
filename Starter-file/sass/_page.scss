@@ -1,28 +1,40 @@
 .test{
+    padding: 1.7em;
+    font-family: 'Cairo', sans-serif !important;
     &__para{
-         padding: 1rem;
-        background-color:rgb(227, 232, 235);
+        padding: 1rem;
+        background-color:rgb(236, 236, 236);
         margin: 0 auto;
-        width: 90%;
+        width: 80%;
         border-radius: 10px 10px 10px 10px;
-            text-align: center;
+        text-align: center;
             p{
+                padding-bottom: 2em;
+                line-height: 170%;
                 font-size: 1.3em;
             }
            
             h3{
                 color: rgb(0, 128, 192);
-                font-weight: bolder;
                 margin: 2rem;
+                font-weight: ;
             }
             hr{
                 background-color: rgb(216, 213, 213);
-                height: 3px;
-                width: 70%;
-                margin: .5rem auto;
+                height: .1em;
+                width: 90%;
+                margin: 20px auto;
                 border: none;
+                
             }
             
+        }
+        &__buttons{
+            text-align: center;
+            .btn4{
+                width: 15%;
+                margin-top: 2.5%;
+            }
         }
     }
 

@@ -373,25 +373,35 @@
     margin-left: 10%;
     margin-right: 10%; } }
 
-.test__para {
-  padding: 1rem;
-  background-color: #e3e8eb;
-  margin: 0 auto;
-  width: 90%;
-  border-radius: 10px 10px 10px 10px;
-  text-align: center; }
-  .test__para p {
-    font-size: 1.3em; }
-  .test__para h3 {
-    color: #0080c0;
-    font-weight: bolder;
-    margin: 2rem; }
-  .test__para hr {
-    background-color: #d8d5d5;
-    height: 3px;
-    width: 70%;
-    margin: .5rem auto;
-    border: none; }
+.test {
+  padding: 1.7em;
+  font-family: 'Cairo', sans-serif !important; }
+  .test__para {
+    padding: 1rem;
+    background-color: #ececec;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center; }
+    .test__para p {
+      padding-bottom: 2em;
+      line-height: 170%;
+      font-size: 1.3em; }
+    .test__para h3 {
+      color: #0080c0;
+      margin: 2rem;
+      font-weight: 1000; }
+    .test__para hr {
+      background-color: #d8d5d5;
+      height: .1em;
+      width: 90%;
+      margin: 20px auto;
+      border: none; }
+  .test__buttons {
+    text-align: center; }
+    .test__buttons .btn4 {
+      width: 15%;
+      margin-top: 2.5%; }
 
 .container {
   margin: 60px 280px 20px; }
