@@ -1,39 +1,98 @@
 // DOM
 
-const stepper = document.querySelectorAll('.stepper h1')
-const préambule = document.querySelector('.Préambule')
+const testBtn = document.querySelector('.start-btn')
 const questionnaire = document.querySelector('.questionnaire')
-const testBtn = document.querySelector('.start')
-const prec = document.querySelector('.precedent')
-const suiv =document.querySelector('.suivant')
-const progressBar = document.querySelector('.bar')
-const questionNumber = document.querySelector('.number')
+const Préambule = document.querySelector('.Préambule')
+const stepper = document.querySelectorAll('.stepper h1')
+const nextBtn = document.querySelector('.next')
+const previousBtn = document.querySelector('.previous')
 const currentQuestion = document.querySelector('.question')
 const answerInputs = document.querySelector('.answer-inputs')
-const box = document.querySelector('.box')
-
+const progressBar = document.querySelector('.bar')
+const questionNumber = document.querySelector('.question-number')
+const animateBox = document.querySelector('.animation')
 
 
 //      Event Listener
 
 
+testBtn.addEventListener('click', startTest)
+
+animateBox.addEventListener('change', (e) => {
+
+    const input = e.target
+
+    if (input.type === 'number') {
+
+        const number = parseFloat(input.value)
+
+        if (number >= input.min && number <= input.max) {
+
+             answerInputs[input.name] = input
+                .value
+                console
+                .log( answerInputs);
+
+            nextBtn.disabled = false
+        } else {
+            nextBtn.disabled = true
+
+        }
+
+    } else {
+
+        answerInputs[input.name] = input
+            .id
+            console
+            .log( answerInputs);
+        nextBtn.disabled = false
+    }
+
+})
 
 
-testBtn.addEventListener('click', start)
+nextBtn.addEventListener('click', () => {
+    if (currentQuestionIndex < 21) {
+        currentQuestionIndex++
+        showQuestion(questions[currentQuestionIndex])
+        folowProgress(currentQuestionIndex)
+        previous()
+        
+        nextBtn.disabled = true
+        if (currentQuestionIndex === 21) {
+            nextBtn.innerText = 'Terminer le test'
+            nextBtn
+                .classList
+                .add('result')
+            const resultBtn = document.querySelector('.result')
+            resultBtn.addEventListener('click', Results)
 
-function start() {
-    stepper[0]
-        .classList
-        .remove('active')
-    stepper[1]
-        .classList
-        .add('active')
-    testBtn.style.display = 'none'
-    préambule.style.display = 'none'
-    questionnaire.style.display = 'block'
-    hidePrevious ()
+        } else {
+            nextBtn.innerText = 'Suivant'
+        }
+    }
+})
+
+
+
+previousBtn.addEventListener('click', () => {
+    currentQuestionIndex--
+    showQuestion(questions[currentQuestionIndex])
+    folowProgress(currentQuestionIndex)
+    previous()
     
-}
+    nextBtn.disabled = true
+    if (currentQuestionIndex === 21) {
+        nextBtn.innerText = 'Terminer le test'
+
+    } else {
+        nextBtn.innerText = 'Suivant'
+        nextBtn
+            .classList
+            .remove('result')
+    }
+})
+
 
 //////////////////////////////////////////////////////
 
