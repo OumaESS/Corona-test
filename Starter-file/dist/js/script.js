@@ -695,3 +695,6 @@ function showResult(severity) {
 
 } 
 resultMessage.innerText = "Résultats";
+
+
+////////DOM///////////////
