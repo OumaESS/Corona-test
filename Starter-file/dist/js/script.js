@@ -364,8 +364,8 @@ let questions = [{
 ];
 
 let testBtn = document.getElementById("start");
-let questionnaire = document.getElementById("questionnaire");
-let Préambule = document.getElementById("Préambule");
+let  para = document.querySelector('#para');
+let questionnaire = document.querySelector("#questionnaire");
 let stepper = document.querySelectorAll(".stepper h1");
 let nextBtn = document.querySelector(".next");
 let previousBtn = document.querySelector(".previous");
@@ -374,10 +374,8 @@ let answerInputs = document.querySelector(".answer-inputs");
 let progressBar = document.querySelector(".bar");
 let questionNumber = document.querySelector(".question-number");
 let inputBox = document.querySelector(".inputBox");
-
-let result = document.querySelector(".Préambule h1");
-let resultMessage = document.querySelectorAll(".Préambule p");
-
+let result = document.querySelector(".para h1");
+let resultMessage = document.querySelectorAll(".para p");
 let currentQuestionIndex = 0;
 
 function hideprevious() {
@@ -392,7 +390,7 @@ function startTest() {
     stepper[0].classList.remove("active");
     stepper[1].classList.add("active");
     testBtn.style.display = "none";
-    Préambule.style.display = "none";
+    para.style.display = "none";
     questionnaire.style.display = "block";
     hideprevious();
     nextBtn.disabled = true;
@@ -696,4 +694,4 @@ function showResult(severity) {
     
 
 } 
-result.innerText = "Résultats";
+resultMessage.innerText = "Résultats";
