@@ -364,6 +364,25 @@
 // ];
 
 
+function getResponse(){
+    let array = [];
+
+for(let i =0; i<5; i++){
+    let response = document.getElementsByClassName('answer-inputs');
+    array.push (response);
+
+}
+
+ console.log(array);
+
+}
+ getResponse();
+
+
+
+
+
+
 
 
 
