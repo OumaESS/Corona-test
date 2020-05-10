@@ -14,6 +14,7 @@
     margin: 0.5% auto auto 2%; }
 
 .bar ul {
+  background-image: none;
   display: flex;
   justify-content: flex-end;
   list-style: none;
@@ -22,7 +23,8 @@
   font-family: fantasy; }
   .bar ul li a {
     text-decoration: none;
-    margin: 2em; }
+    margin: 2em;
+    background-image: none; }
 
 .bar1 {
   background: #F4CF1B;
@@ -59,7 +61,8 @@
     font-size: 24px;
     font-weight: 700;
     color: #7F7F7F;
-    font-family: 'Cairo', sans-serif; }
+    font-family: 'Cairo', sans-serif;
+    padding-bottom: 5%; }
 
 .btn {
   width: 70%;
@@ -198,6 +201,8 @@
   padding: 2em; }
   .navdown h2 {
     color: #1078ad; }
+  .navdown img {
+    padding-bottom: 3%; }
 
 .footer {
   padding-top: 2em; }
@@ -401,7 +406,25 @@
     text-align: center; }
     .Préambule__buttons .btn4 {
       width: 15%;
-      margin-top: 2.5%; }
+      margin-top: 2.5%;
+      width: 15%;
+      margin-top: 2.5%;
+      text-decoration: none;
+      background-position: center;
+      text-align: center;
+      width: 28%;
+      margin-top: 2%;
+      background-image: url("/Starter-file/Assets/png/Merged bar-43.png");
+      padding: 1%;
+      color: #0080c0;
+      font-size: 1.3rem;
+      font-weight: 700;
+      border-color: #0080c0;
+      border-radius: 9px;
+      cursor: pointer; }
+      .Préambule__buttons .btn4:hover {
+        background-color: #1078ad;
+        color: white; }
 
 .Résultats {
   display: none;
@@ -584,19 +607,21 @@
       background-color: #0080c0;
       color: white; }
 
-button {
-  background-position: center;
-  text-align: center;
-  width: 28%;
-  margin-top: 2%;
-  background-image: url("/Starter-file/Assets/png/Merged bar-43.png");
-  padding: 1%;
-  color: #0080c0;
-  font-size: 1.3rem;
-  font-weight: 700;
-  border-color: #0080c0;
-  border-radius: 9px;
-  cursor: pointer; }
-  button:hover {
-    background-color: #1078ad;
-    color: white; }
+#test1 {
+  text-align: center; }
+  #test1 a {
+    margin-top: 2.5%;
+    text-decoration: none;
+    background-position: center;
+    text-align: center;
+    background-image: url("/Starter-file/Assets/png/Merged bar-43.png");
+    padding: 2%;
+    color: #0080c0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-color: #0080c0;
+    border-radius: 9px;
+    cursor: pointer; }
+    #test1 a:hover {
+      background-color: #1078ad;
+      color: white; }

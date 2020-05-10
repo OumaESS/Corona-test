@@ -34,7 +34,7 @@
 }
 
 .bar ul{
-    
+    background-image: none;
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -44,7 +44,7 @@
     li a{
         text-decoration: none;
         margin: 2em;
-        
+        background-image: none; 
     }
 } 
 
@@ -93,6 +93,7 @@
         font-weight: 700;
         color: #7F7F7F;
         font-family: 'Cairo', sans-serif;
+        padding-bottom: 5%;
     }
 }
 
