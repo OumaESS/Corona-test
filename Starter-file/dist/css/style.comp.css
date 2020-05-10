@@ -459,7 +459,6 @@
   margin: 80px auto 20px; }
 
 .stepper {
-  margin: 60px 280px 20px;
   display: grid;
   grid-template-columns: 33% 33% 33%; }
   .stepper h1 {

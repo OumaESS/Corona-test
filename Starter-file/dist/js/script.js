@@ -1,7 +1,7 @@
 // DOM
 
 const testBtn = document.querySelector('#buttons')
-const questionnaire = document.querySelector('.questionnaire')
+const questionnaire = document.querySelector('#questionnaire')
 const Préambule = document.querySelector('.Préambule')
 const stepper = document.querySelectorAll('.stepper h1')
 const nextBtn = document.querySelector('.next')
