@@ -1,4 +1,4 @@
-.test{
+.Préambule{
     padding: 1.7em;
     font-family: 'Cairo', sans-serif !important;
     &__para{
@@ -37,7 +37,45 @@
         }
     }
 
+    .Résultats{
+        display: none;
+        width: 80%;
+        background-color: rgb(216, 213, 213);
+        margin: 0 auto;
+        padding: 20px 40px;
+        border-radius:  1rem;
+    
+        &__paragraph1{
+            font-size: 25px;
+            text-align: justify;
+            text-align-last: center;
+            line-height: 30px;
+            margin-bottom: 3rem;
+            color: rgb(0, 128, 192);
+    
+        }
+    &__paragraph2{
+        font-size: 20px;
+        text-align: justify;
+        text-align-last: center;
+        line-height: 30px;
+        margin-bottom: 3rem;
+        color: rgb(0, 128, 192);
+    
+    }
+    h1 {
+        font-size: 25px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        text-align: center;
+         color:rgb(0, 128, 192);
+    }
+}
 
+.wrapper {
+    width: 70%;
+    margin: 80px auto 20px;
+}
 
 .stepper{
     margin: 60px 280px 20px;  
