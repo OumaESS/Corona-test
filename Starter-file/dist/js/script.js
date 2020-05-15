@@ -224,104 +224,7 @@ function Results() {
    showResult()
 }  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+///////////////////Question-algo////////////////////////
 
 
 const questions = [
@@ -399,7 +302,9 @@ const questions = [
                 }
             ]
         }
-    }, {
+    }, 
+    
+    {
         question: 'Ces dernières 24 heures, avez-vous de la diarrhée ? Avec au moins 3 selles mol' +
                 'les.',
 

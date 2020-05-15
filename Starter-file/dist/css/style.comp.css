@@ -6,14 +6,14 @@
 .nav {
   width: 100%; }
 
-.bar {
+.herobar {
   background-image: url("/Starter-file/Assets/png/Merged bar-43@2x.png");
   background-size: cover; }
-  .bar__logo {
+  .herobar__logo {
     height: 50px;
     margin: 0.5% auto auto 2%; }
 
-.bar ul {
+.herobar ul {
   background-image: none;
   display: flex;
   justify-content: flex-end;
@@ -21,7 +21,7 @@
   float: right;
   margin-top: 1%;
   font-family: fantasy; }
-  .bar ul li a {
+  .herobar ul li a {
     text-decoration: none;
     margin: 2em;
     background-image: none; }

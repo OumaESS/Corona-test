@@ -23,7 +23,7 @@
     width: 100%;
 }
 
-.bar{
+.herobar{
     &__logo{
         height: 50px;
         margin: 0.5% auto auto 2%;
@@ -33,7 +33,7 @@
     background-size: cover;
 }
 
-.bar ul{
+.herobar ul{
     background-image: none;
     display: flex;
     justify-content: flex-end;
