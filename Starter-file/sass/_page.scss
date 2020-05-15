@@ -57,6 +57,7 @@
     }
 
     .Résultats{
+
         display: none;
         width: 80%;
         background-color: rgb(216, 213, 213);
@@ -274,7 +275,90 @@ h1{
 
 
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
+    .wrapper {
+        width: 90%;
+    }
+    .stepper {
+        h1 {
+            font-size: 16px;
+            margin-left: -1rem;
+            &::before {
+                height: 16px;
+                width: 16px;
+                margin-top: -20px;
+            }
+            &::after {
+                height: 16px;
+                width: 16px;
+                margin-top: -20px;
+            }
+        }
+        .select {
+            &::before {
+                height: 16px;
+                width: 16px;
+                margin-top: -25px;
+            }
+            &::after {
+                height: 32px;
+                width: 32px;
+               margin-top: -33px;
 
-  
+            }
+        }
+    }
+    .Préambule {
+        width: 80%;
+        text-align: center;
+        padding: 20px;
+
+
+        &__paragraph1, &__paragraph2 {
+            text-align: justify;
+            text-align-last: center;
+        }
+        hr {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+    }
+    .start-btn {
+        margin-top: 31px;
+        margin-left: 9rem;
+        width: 45%;
+    }
+    .questionnaire {
+        width: 88%;
+        h1 {
+            font-size: 18px;
+            line-height: 1.9rem;
+        }
+    }
+    .progress {
+        margin: auto;
+        width: 100%;
+        h3{
+            display: inherit;
+            margin-left: 4%;
+        }
+        
+    }
+    .btn-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .next {
+            grid-area: 1/2;
+            margin-left: 2rem;
+        }
+        button {
+            width: 43%;
+            padding: 10px 5px;
+        }
+    }
+    .answer-inputs {
+        width: 80%;
+    }
+
 }

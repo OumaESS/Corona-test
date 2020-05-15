@@ -14,12 +14,9 @@ const animateBox = document.querySelector('.animation')
 const Resultat = document.querySelector('.Résultats')
 const resultMessage = document.querySelectorAll('.Résultats p')
 
-
 //      Event Listener
 
-
 testBtn.addEventListener('click', startTest)
-
 animateBox.addEventListener('change', (e) => {
 
     const input = e.target
@@ -76,8 +73,6 @@ nextBtn.addEventListener('click', () => {
     }
 })
 
-
-
 previousBtn.addEventListener('click', () => {
     currentQuestionIndex--
     showQuestion(questions[currentQuestionIndex])
@@ -90,9 +85,7 @@ previousBtn.addEventListener('click', () => {
 
     } else {
         nextBtn.innerText = 'Suivant'
-        nextBtn.innerText = 'Terminer le test'
-       
-
+        
         nextBtn
             .classList
             .remove('results')
@@ -120,8 +113,7 @@ function startTest() {
     stepper[0]
         .classList
         .remove('select')
-        
-        
+                
     stepper[1]
         .classList
         .add('select')
@@ -182,7 +174,7 @@ function showResult (){
     .add('select')
   testBtn.style.display = 'block'
   Préambule.style.display = 'none'
-  Resultat.style.display = 'block'
+  Résultats.style.display = 'block'
   questionnaire.style.display = 'none'
   testBtn.textContent = ' Recommencer le test'
   testBtn.addEventListener('click', () => {

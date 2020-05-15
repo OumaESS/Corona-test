@@ -606,6 +606,65 @@
       background-color: #0080c0;
       color: white; }
 
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    width: 90%; }
+  .stepper h1 {
+    font-size: 16px;
+    margin-left: -1rem; }
+    .stepper h1::before {
+      height: 16px;
+      width: 16px;
+      margin-top: -20px; }
+    .stepper h1::after {
+      height: 16px;
+      width: 16px;
+      margin-top: -20px; }
+  .stepper .select::before {
+    height: 16px;
+    width: 16px;
+    margin-top: -25px; }
+  .stepper .select::after {
+    height: 32px;
+    width: 32px;
+    margin-top: -33px; }
+  .Préambule {
+    width: 80%;
+    text-align: center;
+    padding: 20px; }
+    .Préambule__paragraph1, .Préambule__paragraph2 {
+      text-align: justify;
+      text-align-last: center; }
+    .Préambule hr {
+      width: 80%;
+      margin: 10px auto; }
+  .start-btn {
+    margin-top: 31px;
+    margin-left: 9rem;
+    width: 45%; }
+  .questionnaire {
+    width: 88%; }
+    .questionnaire h1 {
+      font-size: 18px;
+      line-height: 1.9rem; }
+  .progress {
+    margin: auto;
+    width: 100%; }
+    .progress h3 {
+      display: inherit;
+      margin-left: 4%; }
+  .btn-container {
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    .btn-container .next {
+      grid-area: 1/2;
+      margin-left: 2rem; }
+    .btn-container button {
+      width: 43%;
+      padding: 10px 5px; }
+  .answer-inputs {
+    width: 80%; } }
+
 #test1 {
   text-align: center; }
   #test1 a {
